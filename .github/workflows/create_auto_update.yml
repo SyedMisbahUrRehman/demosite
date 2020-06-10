@@ -31,5 +31,5 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: deploying using sruge
-      run: surge ./ learningdemo.surge.sh --token ${{secrets.SURGE_TOKEN}}
+     # run: surge ./ learningdemo.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
